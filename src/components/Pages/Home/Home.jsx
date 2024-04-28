@@ -1,16 +1,19 @@
 import React from 'react'
-import { Header } from '../../Layouts/Header/Header'
-import {Main} from '../../Layouts/Main/Main'
-import { Section } from '../../Layouts/Section/Section'
-import { Footer } from '../../Layouts/Footer/Footer'
+import Main from '../../Layouts/Main/Main'
+import Sidebar from '../../Layouts/Sidebar/Sidebar'
+import "./Home.css"
 
 export const Home = () => {
+  // componentes por crear
+  // Menu
+  // Image
+  // ProjectCard
+  // RefCard
+  // Experience
   return (
-    <>
-      <Header />
+    <div className='home'>
+      <Sidebar />
       <Main/>
-      <Section/>
-      <Footer/>
-    </>
+    </div>
   )
 }

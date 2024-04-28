@@ -1,0 +1,12 @@
+.portfolio-section{
+    background: lightblue;
+    margin-bottom: 20px;
+}
+
+.portfolio-section .title{
+    border-bottom: 1px solid black;
+}
+
+.portfolio-section .title.no-border{
+    border-bottom: 0;
+}

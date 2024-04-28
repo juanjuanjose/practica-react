@@ -1,25 +1,27 @@
 import React from 'react'
-
-
 import './Main.css'
-import { Section } from '../Section/Section'
+import PortfolioSection from '../../UI/PortfolioSection/PortfolioSection'
 
-export const Main = () => {
+const Main = () => {
   return (
-    <div className='body-main'>
-        <Section>
-            <div className='img-container'>
-            <img src="https://i.pinimg.com/564x/ae/75/62/ae75623f907663ab7305379960f43647.jpg" alt="" className='img-main'  />
-            </div>
-        </Section>
+    <main className='main'>
 
-        <Section>
-          <div className='box2'>
-            <h1>Lorem</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, laboriosam? Voluptatibus necessitatibus fuga ipsam quas perferendis quod, harum veniam quidem temporibus corporis, eum quis culpa exercitationem sed voluptate impedit? Autem.</p>
-            </div>
-        </Section>
-    </div>
-    
+      <PortfolioSection title="titulo 1" hasBorder={true} progressValue="70">
+        <p>esto tambien funciona</p>
+      </PortfolioSection>
+
+      <PortfolioSection title="titulo 2" hasBorder={false} progressValue="30">
+        content 2
+      </PortfolioSection>
+
+      <PortfolioSection title="titulo 3" hasBorder={true} progressValue="10">
+        content 3
+      </PortfolioSection>
+      <PortfolioSection title="titulo 4" hasBorder={false} progressValue="95">
+        content 4
+      </PortfolioSection>
+    </main>  
   )
 }
+
+export default Main
