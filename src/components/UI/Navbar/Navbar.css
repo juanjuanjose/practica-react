@@ -1,0 +1,20 @@
+.navbar {
+  width: 50rem;  
+}
+
+.navbar > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar > ul > li {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.nav-home {
+  font-weight: 600;
+  color: #fff;
+}

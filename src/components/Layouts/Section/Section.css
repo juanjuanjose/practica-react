@@ -1,0 +1,35 @@
+Section{
+    width: 50%;
+    outline: 3px solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+section > h1{ 
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+
+.img-main{
+    height: 90%;
+}
+
+.box2{
+  display: flex;
+flex-direction: column;
+    
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    outline: 3px solid black;
+    display: flex;
+    justify-content: center;
+
+}
