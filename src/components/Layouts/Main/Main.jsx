@@ -10,7 +10,7 @@ const Main = () => {
         <p>esto tambien funciona</p>
       </PortfolioSection>
 
-      <PortfolioSection title="titulo 2" hasBorder={false} >
+      <PortfolioSection title="titulo 2" hasBorder={true} >
         content 2
       </PortfolioSection>
 

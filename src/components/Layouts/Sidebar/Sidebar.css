@@ -1,3 +1,16 @@
 .sidebar{
-    background-color: green;
+    background-color: #39a900;
+    display: flex;
+    
+}
+
+
+.sidebar > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    overflow: hidden;
+    width: 80%; /* Para que la imagen se ajuste al contenedor */
+    height: auto; /* Para mantener la proporción */
+    display: block; 
 }
