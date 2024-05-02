@@ -10,10 +10,10 @@ const PortfolioSection = (props) => {
       </div>
       <div>{props.children}</div>
       <div className=''>
-        <img src='/images/vite.svg' alt='test' />
-        <ProgressBar completed={props.progressValue} bgColor="#39a900" customLabel=' ' />
-        intermedio
+        
+        
       </div>
+      
     </section>
   )
 }

@@ -1,6 +1,7 @@
 .portfolio-section{
-    background: lightblue;
+    background: whitesmoke;
     margin-bottom: 20px;
+
 }
 
 .portfolio-section .title{
@@ -10,3 +11,4 @@
 .portfolio-section .title.no-border{
     border-bottom: 0;
 }
+
